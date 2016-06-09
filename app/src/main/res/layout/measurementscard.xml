@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+  >
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/measurement_card"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            >
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/measurement_cbox"
+                android:layout_gravity="center"
+                android:layout_weight="0.25"
+                android:buttonTint="@color/colorAccent"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@drawable/signal"
+                android:tint="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:id="@+id/measurement_number"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingStart="5dp"
+                android:textSize="25sp"
+                android:textColor="#757575"
+                android:text="Měření 1"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_weight="0.5"/>
+
+            <TextView
+                android:id="@+id/measurement_amountOfDatapoints"
+                android:layout_width="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="15sp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:textAllCaps="true"
+                android:layout_weight="1"
+                android:paddingStart="10dp"
+                android:paddingBottom="10dp"
+                android:text="Měření 2"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:id="@+id/measurement_btn"
+                android:layout_height="wrap_content"
+                android:text="@string/measurement_card_button"
+                android:layout_gravity="center"
+                android:theme="@style/Button"
+                />
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+    <View
+        android:layout_width="fill_parent"
+        android:background="@color/cardview_light_background"
+        android:layout_height="1dp"/>
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference android:title="Adresa serveru"
+        android:key="address"
+        android:summary="Zadejte adresu serverové části radiolokátoru"
+        android:defaultValue="teeworlds.cz"></EditTextPreference>
+    <EditTextPreference android:title="Port serveru"
+        android:key="port"
+        android:summary="Zadejte číslo portu, na kterém server naslouchá příchozím spojením"
+        android:numeric="integer"
+        android:maxLength="4"
+        android:defaultValue="1989"></EditTextPreference>
+    <EditTextPreference android:title="Délka úsečky"
+        android:key="distance"
+        android:numeric="integer"
+        android:defaultValue="10000"
+        android:summary="Specifikujte zdálenost v metrech, v jaké se mají vykreslovat protější Datapointy"></EditTextPreference>
+</PreferenceScreen>

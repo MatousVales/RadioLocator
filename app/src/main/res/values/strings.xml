@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">RadioLocator</string>
+    <string name="card1_title">Lokátor</string>
+    <string name="card1_description">START pro zahájení nového měření</string>
+    <string name="card1_button">Start</string>
+    <string name="card2_title">Databáze</string>
+    <string name="card2_description">ZOBRAZIT pro import, export a zobrazení historie měření</string>
+    <string name="card2_button">Zobrazit</string>
+
+    <string name="card3_title">Připojení</string>
+    <string name="card3_description">STATUS pro zjištění stavu internetového streamu</string>
+    <string name="card3_button">Status</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="menu_export">Export</string>
+    <string name="menu_import">Import</string>
+    <string name="menu_delete">Delete</string>
+    <string name="menu_start">Start connection</string>
+    <string name="menu_stop">Stop connection</string>
+    <string name="databaseactivity_title">Databáze</string>
+    <string name="mapsactivity_title">Lokátor</string>
+    <string name="MeasurementDetail_activity_title">Detail měření</string>
+    <string name="importdata_pickdata">Vyberte soubor:</string>
+    <string name="measurement_card_button">Detail</string>
+    <string name="settingsactivity_title">Nastavení</string>
+
+
+</resources>
