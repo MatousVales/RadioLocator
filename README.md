@@ -2,7 +2,7 @@
 
 RadioLocator is a mobile app enabling visualisation and catalogization of measurements done by a passive radiolocator. It locates the position of a source of radio signal by using the measured values as a data layer of a Google map and making an intersection out of polylines. 
 
-![Alt text](radiolocator.png?raw=true "RadioLocator")
+![Alt text](RadioLocator.PNG?raw=true "RadioLocator")
 
 The app serves as a graphical interface for a passive radiolocator. The radiolocator uses a Pseudo-Doppler antenna array to get an angle of an incoming signal. The measurements are made out of a moving car, so the angle changes as the car changes it's position relative to the transmitter. Once "Angle of Arrival" is calculated, it gets sent to the android app as an xml file via java.net sockets. Geo position at the time of a measurement is also stored and sent over. The app then uses an xml pull parser to parse the incoming measurements and store this data in an SQLite database from which it can either visualise or export the whole set. Visualization is made by putting a Marker onto the map and connecting it to a second marker, which position is set at a specified distance in direction of the measured angle. Once at least 3 "Datapoints" are drawn onto the map, the position of the transmitter can be triagulated.
 
