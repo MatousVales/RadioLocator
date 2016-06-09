@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<Datapoints>
+  <Datapoint>
+    <id>1</id>
+    <latitude>49.830878</latitude>
+    <longitude>18.159865</longitude>
+    <angle>90</angle>
+    <time>22:58:43 17.10.2016</time>
+  </Datapoint>
+  <Datapoint>
+    <id>1</id>
+    <latitude>49.828511</latitude>
+    <longitude>18.162837</longitude>
+    <angle>33</angle>
+    <time>22:59:43 17.10.2016</time>
+  </Datapoint>
+  <Datapoint>
+    <id>1</id>
+    <latitude>49.827479</latitude>
+    <longitude>18.167448</longitude>
+    <angle>338</angle>
+    <time>23:00:00 17.10.2016</time>
+  </Datapoint>
+  <Datapoint>
+    <id>1</id>
+    <latitude>49.828243</latitude>
+    <longitude>18.173125</longitude>
+    <angle>298</angle>
+    <time>23:00:00 17.10.2016</time>
+  </Datapoint>
+  <Datapoint>
+    <id>1</id>
+    <latitude>49.831139</latitude>
+    <longitude>18.174921</longitude>
+    <angle>268</angle>
+    <time>23:00:00 17.10.2016</time>
+  </Datapoint>
+  <Datapoint>
+    <id>1</id>
+    <latitude>49.832701</latitude>
+    <longitude>18.175839</longitude>
+    <angle>255</angle>
+    <time>23:00:00 17.10.2016</time>
+  </Datapoint>
+  <Datapoint>
+    <id>1</id>
+    <latitude>49.835037</latitude>
+    <longitude>18.166739</longitude>
+    <angle>193</angle>
+    <time>23:00:00 17.10.2016</time>
+  </Datapoint>
+  <Datapoint>
+    <id>1</id>
+    <latitude>49.835395</latitude>
+    <longitude>18.158407</longitude>
+    <angle>135</angle>
+    <time>23:00:00 17.10.2016</time>
+  </Datapoint>
+</Datapoints>
