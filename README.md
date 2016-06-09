@@ -25,5 +25,5 @@ A detailed view of a measurement consisting out of a set of Datapoints.
 
 The app was made as a bachelor project. Quick presentation of the app can be viewed [here](RadioLocator.pdf).
 
-Download the [apk](RadioLocator.apk) of the app here. To get data either import [this](measurement.xml) previously meade measurement or try real time radiolocation by pressing the correct button in the locator activity.
+Download the [apk](https://drive.google.com/file/d/0BxFwegXX4a7objVHQ3lHXzZQN00/view?usp=sharing) of the app here. To get data either import [this](measurement.xml) previously meade measurement or try real time radiolocation by pressing the correct button in the locator activity.
 
