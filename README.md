@@ -23,7 +23,7 @@ Database activity. Also serves to provide direct import and export capabilities.
 A detailed view of a measurement consisting out of a set of Datapoints.
 ![Alt text](detailactivity.png?raw=true "Detail of a Measurement")
 
-The app was made as a bachelor project. Quick presentation of the app can be viewed [here](radiolocator.pdf).
+The app was made as a bachelor project. Quick presentation of the app can be viewed [here](RadioLocator.pdf).
 
-Download the [apk](radiolocator.apk) of the app here. To get data either import [this](measurement.xml) previously meade measurement or try real time radiolocation by pressing the correct button in the locator activity.
+Download the [apk](RadioLocator.apk) of the app here. To get data either import [this](measurement.xml) previously meade measurement or try real time radiolocation by pressing the correct button in the locator activity.
 
